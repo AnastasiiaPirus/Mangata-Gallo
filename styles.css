@@ -1,0 +1,139 @@
+body {
+  background-color: white;
+  font-family: Garamond, serif;
+  margin: 3rem 5%;
+}
+
+header>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 25px;
+  background-color: #f6f0e4;
+}
+
+nav li {
+  display: inline-block;
+  margin: 1rem 2rem;
+  font-size: 1.5rem;
+
+}
+
+a:link {
+  text-decoration: none;
+  border: solid transparent;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+
+}
+
+a:active {
+  text-decoration: underline;
+  color: rgb(203, 144, 146);
+}
+
+section {
+  display: grid;
+  grid-template: auto / auto auto auto;
+}
+
+section {
+  padding: 1rem 1rem;
+  background-color: #fbfaf2;
+}
+
+article {
+  margin: 1rem 1rem;
+}
+
+footer {
+  display: flex;
+  padding-top: 2rem;
+}
+
+div {
+  flex: 1;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+article.card>img {
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px transparent;
+  
+}
+
+
+article.card>img:hover {
+  box-shadow: 7px 7px 4px #ccc;
+}
+
+.card {
+  background-color: #f6f0e4;
+  border-radius: 25px;
+  padding: 0.5rem;
+  
+ 
+}
+
+.adv {
+  position: relative;
+  text-align: center;
+}
+
+.adv img {
+  width: 100%;
+  filter: blur(4px) brightness(85%);
+}
+
+p.text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 40%;
+  /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 70%;
+  /* Set the width of the positioned div */
+  color: white;
+}
+
+h1.text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 20%;
+  /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 70%;
+  /* Set the width of the positioned div */
+  color: white;
+}
+
